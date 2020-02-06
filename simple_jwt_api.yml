@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: CONTAINER_IMAGE
+          image: 989990518955.dkr.ecr.us-west-2.amazonaws.com/capst-ecrdo-py8lyyehk6bs:Kubenetes.master..2020-02-06.19.54.45.ef9fa7d0
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
